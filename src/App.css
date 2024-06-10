@@ -1,5 +1,6 @@
 .App {
   display: flex;
+  height: 100vh;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -8,6 +9,8 @@
   color: #2F3136;
   font-size: 20px;
   line-height: 24px;
+  flex-direction: row;
+  width: 100%;
 }
 
 .quarterly-cards {

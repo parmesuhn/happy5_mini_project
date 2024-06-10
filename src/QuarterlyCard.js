@@ -1,4 +1,6 @@
 import React from 'react';
+import Weight from './Weight.png';
+import tridots from './ion-more - Ionicons.png';
 import './QuarterlyCard.css';
 
 const QuarterlyCard = ({ quarter, months, tasks }) => {
@@ -13,7 +15,8 @@ const QuarterlyCard = ({ quarter, months, tasks }) => {
           <div key={index} className="task">
             <p>{task.description}</p>
             <div className="progress">
-              <span>{task.progress}%</span>
+              <span><img src={Weight} alt="Weight Icon" className="weight-icon" />{task.progress}%</span>
+              <a><span><img src={tridots} alt="Triple Dots" className="tridot-icon" /></span></a>
             </div>
           </div>
         ))
