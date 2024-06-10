@@ -1,0 +1,42 @@
+.quarterly-card {
+    background-color: #FEFEFF;
+    border: 1px solid #F2F2F4;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 306px;
+  }
+  
+  .quarterly-card h2 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .quarterly-card h3 {
+    margin: 0;
+    color: #5D6372;
+    font-size: 14px;
+  }
+  
+  .task {
+    border: 1px solid #F2F2F4;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 8px;
+  }
+  
+  .progress {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .add-task-btn {
+    background: none;
+    border: none;
+    color: #2F3136;
+    cursor: pointer;
+    padding: 8px 0;
+    text-align: left;
+    width: 100%;
+  }
