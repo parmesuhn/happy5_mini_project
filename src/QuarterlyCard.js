@@ -15,8 +15,14 @@ const QuarterlyCard = ({ quarter, months, tasks }) => {
           <div key={index} className="task">
             <p>{task.description}</p>
             <div className="progress">
-              <span><img src={Weight} alt="Weight Icon" className="weight-icon" />{task.progress}%</span>
-              <a><span><img src={tridots} alt="Triple Dots" className="tridot-icon" /></span></a>
+              <span>
+                <img src={Weight} alt="Weight Icon" className="weight-icon" />{task.progress}%
+              </span>
+              <a>
+                <span>
+                  <img src={tridots} alt="Triple Dots" className="tridot-icon" />
+                </span>
+              </a>
             </div>
           </div>
         ))

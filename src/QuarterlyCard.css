@@ -5,6 +5,7 @@
     padding: 16px;
     margin: 16px;
     max-width: 306px;
+    flex: 1;
   }
   
   .quarterly-card h2 {
@@ -24,6 +25,7 @@
     border-radius: 1px;
     padding: 8px;
     margin-top: 8px;
+    font-size: 14px;
   }
   
   .progress {
@@ -51,7 +53,6 @@
   }
 
   .tridot-icon {
-    margin-left: 210px;
+    margin-left: 180px;
     margin-right: 10px;
-    vertical-align: middle;
   }

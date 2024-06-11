@@ -51,7 +51,7 @@ function App(){
       <Sidebar />
       <div className="content">
         <h1>Product Roadmap</h1>
-        <div classname="quarterly-cards">
+        <div className="quarterly-cards">
           {quarters.map((quarter, index) => (
             <QuarterlyCard
             key={index}

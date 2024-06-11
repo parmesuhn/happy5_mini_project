@@ -17,3 +17,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.quarterly-card {
+  padding: 16px;
+  border-radius: 1px;
+  flex: 1 1 calc(33.333% - 40px);
+  box-sizing: border-box;
+}
